@@ -41,7 +41,7 @@
 			script.println("<script>history.back()</script>");
 		} else {
 			PrintWriter script = response.getWriter();
-			script.println("<script>location.href = 'logoutProcess.jsp'</script>");
+			script.println("<script>location.href = 'content.jsp'</script>");
 		}
 	%>
 </body>
